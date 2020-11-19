@@ -1,4 +1,4 @@
-body {
+body{
     margin:0;
     padding:0;
 }
@@ -40,6 +40,6 @@ h1 {
 }
 
 .color {
-    color: white;
+    color: #ffffff;
     font-size: x-large;
 }
