@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+main {
+    background-color: blanchedalmond;
+    color: blue;
+    
+    text-align: center;
+    display: grid;
+    width:30%;
+
+    border: 3px solid grey;
+    margin-top: 10%;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 15%;
+}
+
+.btnclass {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btnclass:hover {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-size: large;
+    color: black;
+    padding:0px;
+}
+
+.color {
+    color: white;
+    font-size: x-large;
+}
