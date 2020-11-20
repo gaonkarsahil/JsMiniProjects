@@ -1,0 +1,32 @@
+font-weight :- sets how thick or thin characters in text should be displayed.(normal, bold, bolder, lighter, 400(normal), 700(bold))
+
+
+
+document.querySelectorAll('.btn') :- returns a static NodeList object of all elements in the document that matches a specified CSS selector(s).
+                                     NodeList object represents a collection of nodes. 
+                                     The nodes can be accessed by index numbers. The index starts at 0.
+                                     can use the length property of the NodeList object and loop through all elements. Or can use forEach().
+
+                                     var xs = document.querySelectorAll(".example");
+                                     var i;
+                                     for (i = 0; i < xs.length; i++) {
+                                        xs[i].style.backgroundColor = "red";
+                                     }
+                                        OR 
+                                     
+                                     var xs = document.querySelectorAll(".example");
+                                     xs.forEach(function (x) {
+                                        x.style.backgroundColor = "red";
+                                     });
+
+e.currentTarget :- returns the element whose event listeners triggered the event.
+                   <button class="btn decrease">Decrease</button> => after clicking decrease button console.log(e.currentTarget).
+
+
+classList :- property returns the class name(s) of an element, as a DOMTokenList object.
+             useful to add, remove and toggle CSS classes on an element. 
+             has mehods ( add , remove , toggle, contains ).
+
+contains('decrease') :- Returns true if the element contains the specified class name.
+                        Returns false if the element does not contain the specified class name.
+

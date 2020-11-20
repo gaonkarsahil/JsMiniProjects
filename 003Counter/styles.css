@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+main {    
+    text-align: center;
+    display: grid;
+
+    margin-top: 10%;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.decrease:hover {
+    color: white;
+    background-color: red;
+}
+
+.increase:hover {
+    color: white;
+    background-color: green;
+}
+
+.reset:hover {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-size: xx-large;
+    color: rgb(117, 68, 233);
+
+}
+
+#value {
+    font-size: 4rem;
+    font-weight: bold;
+}
