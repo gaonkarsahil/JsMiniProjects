@@ -50,3 +50,4 @@ Math.floor(x) :- returns the value of x rounded down to its nearest integer.
                  x = 4.7 ===> 4.
 
 
+textContent :- sets or returns the text content of the specified node.
