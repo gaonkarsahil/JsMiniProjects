@@ -1,0 +1,52 @@
+<span> Tag :- An inline container used to mark up a part of a text, or a part of a document.
+              Tag itself do not produce any visual changes.  
+              Used for styling purpose. One can manipulate the style either with JavaScript or CSS.
+              
+
+
+
+margin :- space outside element border.
+padding :- space between element border and its content.
+border :- specifies the width, style, and color of an element's border.
+border-radius :- used to add rounded borders to an element:
+
+
+background-color :- sets the background color of an element.
+color :- sets the color of text inside an element.
+
+text-align :- specifies the horizontal alignment of text in an element.(left, right, center, justify)
+
+display :- specifies the display behavior (the type of rendering box) of an element.(none, inline, block, grid, inline-block, flex, table)
+
+cursor :- specifies the mouse cursor to be displayed when pointing over an element.(pointer, wait , url, not-allowed, cell, crosshair..)
+
+font-size :- sets the size of a font.(em , %, px, medium , small, large , larger , x-large , xx-large)
+
+width :- sets the width of an element.
+
+
+
+
+document.getElementById("btn") :- returns the element with the specified ID.
+                                  returns null if no element exists.
+                                  is used to manipulate, or get info from, an element of the document.
+                                  An ID should be unique within a page. 
+                                  If duplicate ID exists, then getElementById() method returns first element in the code.
+
+document.querySelector(".color") :- returns first element that matches a specified CSS selector(s) in the document.
+                                    "p" :- Get first <p> element in document.
+                                    "p.example" :- Get first <p> element in document with class="example".
+                                    "div > p" :- Get first <p> element in document where parent is a <div> element.
+                                    "a[target]" :- Get first <a> element in document that has a "target" attribute.
+                                    
+btn.addEventListener('click', function(){ }); :- attaches an event handler to the specified element.
+                                                 (event , function, useCapture(true - Capturing Phase/ false- Bubbling Phase)).
+                                                 event :- click, cut, copy, dblclick, drag, error, load...
+
+Math.random() :- returns a random number between 0 (inclusive),  and 1 (exclusive).
+                 0.0000 0000 0000 00000 (0.(17) digits) to 9.9999 9999 9999 99999 .
+
+Math.floor(x) :- returns the value of x rounded down to its nearest integer.
+                 x = 4.7 ===> 4.
+
+
