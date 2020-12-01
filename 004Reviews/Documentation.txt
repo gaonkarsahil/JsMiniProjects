@@ -1,0 +1,37 @@
+background :- shorthand property to set the background properties in one declaration.
+              e.g :- body {
+                            background-color: #ffffff;
+                            background-image: url("abc.png");
+                            background-repeat: no-repeat;
+                            background-position: right top;
+                        }
+                    can be done as 
+
+                    body {
+                        background: #ffffff url("abc.png") no-repeat right top;
+                    }
+
+
+hsl(hue, saturation, lightness) :- Hue is a degree (0 to 360) on color wheel (0 => red, 120 => green, 240 => blue).
+                                   Saturation is % value, ( 0% => shade of gray, 100% => full color).
+                                   Lightness is %, ( 0% => black, 50% => neither light or dark, 100% => white).
+
+
+height :- sets the height of an element.
+
+
+box-shadow:- attaches one or more shadows to an element. 
+            e.g :- box-shadow: 7px -4px 1px rgb(73, 179, 245); => h-offset v-offset blur color.
+            h-offset(+Ve => Shadow to right) v-offset(+Ve => Shadow to bottom) blur(higher number more blur) spread(+Ve => increases size of shadow) color .
+
+
+transition :- shorthand property for: transition-property transition-duration transition-timing-function transition-delay;.
+              property :- specifies name of css property to which transition to be apply.
+              duration :- specifies seconds or milliseconds of transition effect.
+              timing-function :- specifies speed curve of effect.(ease / linear ( same speed from start to end) / ease-in/ ease-out / ease-in-out).
+              delay :- defines when transition will start.
+
+
+
+
+DOMContentLoaded :- Browser fully loaded HTML, and DOM tree is built, but external resources like images and stylesheets may not yet have loaded.
