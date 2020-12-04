@@ -1,0 +1,44 @@
+list-style-type :- specifies type of list-item marker in a list (none / circle / disc / square).
+
+
+text-decoration :- shorthand property for
+                   text-decoration-line(required)(underline/overline/line-through) text-decoration-color text-decoration-style(solid/wavy/dotted/dashed/double).
+
+
+font-family :- specifies the font for an element.
+               can hold several font names . If browser does not support first font, it tries next.
+               Start with the font you want, and always end with a generic family.
+               Generic family names are keywords and must not be quoted. 
+               
+
+align-items :- specifies default alignment for items inside the flexible container.(center/ stretch/ flex-start / flex-end).
+
+
+justify-content :- aligns container's items when the items do not use all available space on the main-axis (horizontally).
+                   (space-between/space-around/flex-start/flex-end/center).
+
+
+overflow :- specifies whether to clip the content or to add scrollbars when content of an element is too big to fit in specified area.
+            (visible (content can render outside the element's box) / hidden / scroll (scrollbar is added to see the rest of the content) /auto (Similar to scroll, but it adds scrollbars only when necessary).
+
+
+letter-spacing :- increases or decreases the space between characters in a text.
+
+
+border-color :- sets the color of an element's four borders.
+
+transform :- applies a 2D or 3D transformation to an element.
+             ( translate(x,y) / scale(x,y) / rotate(angle) / skew(x-angle,y-angle) ).
+
+
+max-width :- defines the maximum width of an element.
+             If content is larger than the maximum width, it will automatically change the height of the element.
+             If content is smaller than the maximum width, the max-width property has no effect.
+             prevents the value of the width property from becoming larger than max-width.
+
+
+@media :- rule used in media queries to apply different styles for different media types/devices.
+          can check ( width and height of the viewport / w&h device / orientation (is the tablet/phone in landscape or portrait mode?) / resolution ). 
+          e.g :- @media screen and (min-width: 800px) (apply css inside media when the browser's width is 800px wide or more).
+          media types :- screen / all / print / speech.
+          media features :- max-width / hover / min-height / orientation / max-resolution..
