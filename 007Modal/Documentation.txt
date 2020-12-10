@@ -1,0 +1,37 @@
+
+min-height:- defines the minimum height of an element.
+             If content is smaller than the minimum height, minimum height will be applied.
+             If the content is larger than the minimum height, the min-height property has no effect.
+             prevents the value of the height property from becoming smaller than min-height.
+
+
+background: bg-image position/bg-size bg-repeat;
+            e.g :- url("./hero.jpg") center/cover no-repeat;
+            background-image :- sets one or more background images for an element.
+                                By default, image is placed at top-left corner and repeated both vertically and horizontally.
+                                url("./hero.jpg") :- URL to the image. To specify multiple images, separate the URLs with a comma.
+            background-position :- sets the starting position of a background image. 
+                                   if only one keyword is specified, then other value will be "center".
+                                   (left top / left center / left bottom / 10px 10px / 50% 50%).
+            background-size :- specifies the size of the background images.
+                               (auto / length / cover / contain)                    
+                                auto :- displayed in original size.
+                                length :- first value => width, second value => height. If only one value is given, second value is set to "auto".
+                                cover :- Resizes the background image to cover the entire container.
+                                contain :- Resizes the background image to make sure image is fully visible.
+
+
+place-items :-  shorthand for align-items and justify-items css properties.
+                If second value is not set, the first value is also used for it.
+                align-items :- specifies default alignment for items inside the flexible container.(center/ stretch/ flex-start / flex-end).
+                justify-items :-  allows to set alignment for items inside a grid container in a specific position (e.g. start, center and end) or with a behavior (e.g. auto or stretch).
+
+
+visibility :- specifies whether or not an element is visible.
+              The element will be hidden, but still affect the layout (still takes up space). Use display:none to hide the element which will have no affect on layout.
+              (visible / hidden / collapse).
+              
+z-index :- z-index property specifies the stack order of an element.
+           An element with greater stack order is always in front of an element with a lower stack order.
+           z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky).
+           Negative numbers are allowed.
