@@ -1,0 +1,36 @@
+position :- specifies type of positioning method used for an element.(static / relative / fixed / absolute / sticky).
+            Elements are then positioned using top, bottom, left, and right properties.
+            These properties will not work unless the position property is set first.
+            static :- elements are not affected by top, bottom, left, and right properties.
+            relative :- positioned relative to its normal position.
+            fixed :- positioned relative to the viewport, it always stays in the same place.
+            absolute :- positioned relative to nearest positioned ancestor. if no positioned ancestor it uses document body.
+            sticky :- element toggles between relative and fixed. It is positioned relative until a given offset position , then it "sticks" in place (fixed).
+            (top / bottom / left / right / clip / z-index) can be also used with positioning.
+
+
+top :- Sets the top margin edge for a positioned box.
+
+
+right :- Sets the right margin edge for a positioned box.
+
+left :- Sets the left margin edge for a positioned box.
+
+
+animation :- shorthand for animation.
+             e.g. :- bounce 2s ease-in-out infinite 
+                     animation-name = bounce / animation-duration = 2s / animation-timing-function = ease-in-out / animation-iteration-count = infinite .
+
+
+keyframes :- rule controls the intermediate steps in animation sequence by defining styles for keyframes.
+             
+
+grid-template-rows :- Sets the size of the rows in a grid layout.
+                      ( auto / max-content (size of row based on largest item) / min-content (smallest item) / length ).
+                      e.g :- grid-template-rows: auto 1fr auto; // first row size => auto , second => 1 flex factor , third => auto .
+
+
+row-gap :- sets the size of the gap (gutter) between an element's grid rows.
+
+
+
